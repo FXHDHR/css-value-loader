@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "jest test.js"
+  },
+  "devDependencies": {
+    "css": "^2.2.4",
+    "jest": "^26.0.1",
+    "loader-utils": "^2.0.0"
+  }
+}
