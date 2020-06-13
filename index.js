@@ -1,1 +1,1 @@
-module.exports = require('./lib/cssUnit-loader')
+module.exports = require('./lib/css-value-loader')

@@ -5,14 +5,14 @@
   </a>
 </div>
 
-# cssUnit-loader
+# css-value-loader
 
 用户可自定义规则进行css属性值转换的webpack Loader，您可以传入规则，对css属性值进行个性化转换。
 
 ## 安装
 
 ```console
-npm install --save-dev cssunit-loader
+npm install --save-dev css-value-loader
 ```
 
 ## 用法
@@ -29,7 +29,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: 'cssunitloader',
+            loader: 'css-value-loader',
             options: {},
           },
         ],
@@ -67,7 +67,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: 'cssunitloader',
+            loader: 'css-value-loader',
             options: {
               unit: 'rem',
             },
@@ -103,7 +103,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: 'cssunitloader',
+            loader: 'css-value-loader',
             options: {
               // value 即是匹配的属性值数字部分，比如10px，value代表的是10
               rule: (value) => { 
@@ -150,7 +150,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: 'cssunitloader',
+            loader: 'css-value-loader',
             options: {
               exceptSelect: '.except',
             },
@@ -194,7 +194,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: 'cssunitloader',
+            loader: 'css-value-loader',
             options: {
               exceptProperty: 'background',
             },
@@ -242,7 +242,7 @@ module.exports = {
         test: /\.css$/,
         use: [
           {
-            loader: 'cssunitloader',
+            loader: 'css-value-loader',
             options: {
               unit: '--doc-scale',
             },

@@ -1,7 +1,7 @@
 {
-  "name": "cssunit-loader",
+  "name": "css-value-loader",
   "description": "用户可自定义规则进行css属性值转换的webpack Loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "jest test.js"
@@ -24,9 +24,9 @@
     "url": "git+https://github.com/FXHDHR/cssUnit-loader.git"
   },
   "keywords": [
-    "cssUnit",
+    "css-value",
     "loader",
-    "cssUnit-loader",
+    "css-value-loader",
     "webpack"
   ],
   "author": "FXHDHR",

@@ -19,7 +19,7 @@ module.exports = {
             loader: 'css-loader',
           },
           {
-            loader: path.join(__dirname, '../lib/cssUnit-loader.js'),
+            loader: path.join(__dirname, '../index'),
             options: {},
           },
         ],

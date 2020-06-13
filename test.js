@@ -1,4 +1,4 @@
-const loader = require('./lib/cssUnit-loader');
+const loader = require('./lib/css-value-loader');
 
 describe('test loader', () => {
   test('should transform px value into `calc(${value}px * var(--doc-scale))`', () => {
