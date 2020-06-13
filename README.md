@@ -7,7 +7,7 @@
 
 # cssUnit-loader
 
-用户可自定义规则进行css单位转换的webpack Loader，您可以传入规则，对css单位进行个性化转换。
+用户可自定义规则进行css属性值转换的webpack Loader，您可以传入规则，对css属性值进行个性化转换。
 
 ## 安装
 

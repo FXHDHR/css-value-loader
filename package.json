@@ -1,7 +1,7 @@
 {
   "name": "cssunit-loader",
-  "description": "用户可自定义规则进行css单位转换的webpack Loader",
-  "version": "1.0.0",
+  "description": "用户可自定义规则进行css属性值转换的webpack Loader",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "jest test.js"
