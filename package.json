@@ -1,4 +1,8 @@
 {
+  "name": "cssunit-loader",
+  "description": "用户可自定义规则进行css单位转换的webpack Loader",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "test": "jest test.js"
   },
@@ -6,5 +10,29 @@
     "css": "^2.2.4",
     "jest": "^26.0.1",
     "loader-utils": "^2.0.0"
-  }
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies":{
+    "css": "^2.2.4",
+    "loader-utils": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FXHDHR/cssUnit-loader.git"
+  },
+  "keywords": [
+    "cssUnit",
+    "loader",
+    "cssUnit-loader",
+    "webpack"
+  ],
+  "author": "FXHDHR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FXHDHR/cssUnit-loader/issues"
+  },
+  "homepage": "https://github.com/FXHDHR/cssUnit-loader#readme"
 }

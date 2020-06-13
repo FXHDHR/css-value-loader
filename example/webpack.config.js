@@ -20,11 +20,7 @@ module.exports = {
           },
           {
             loader: path.join(__dirname, '../lib/cssUnit-loader.js'),
-            options: {
-              expect: {
-                text: 'sjjs'
-              }
-            }
+            options: {},
           },
         ],
       },
